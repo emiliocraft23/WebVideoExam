@@ -1,0 +1,18 @@
+# Framework y Servidor
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6  # Crucial para recibir archivos de video e imágenes
+
+# Base de datos y ORM
+SQLAlchemy==2.0.23
+# Elige una de las dos siguientes según tu motor en RDS:
+# psycopg2-binary==2.9.9 
+pymysql==1.1.0
+
+# Seguridad y Autenticación (JWT y Contraseñas)
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+
+# Integración con AWS y Variables de entorno
+boto3==1.33.0
+python-dotenv==1.0.0
